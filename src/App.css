@@ -1,0 +1,163 @@
+.App {
+  display: flex;
+  height: 100vh;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  background-image: url("https://wallpaperaccess.com/full/734356.jpg");
+  background-size: cover;
+  color: greenyellow;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: greenyellow;
+  border-radius: 25px;
+  color: green;
+  transition: color 200ms ease-in-out;
+}
+
+.option h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.sidebar {
+  flex: .2;
+  text-decoration: none;
+}
+
+.post {
+  padding: 10px;
+  border-bottom: 8px solid greenyellow;
+}
+
+.post form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  padding: 20px;
+  display: flex;
+}
+
+.submit input {
+  flex: 1;
+  margin: 20px;
+  font-size: 20px;
+  border: 1px solid greenyellow;
+}
+
+.button {
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+.feed {
+  flex: 0.5;
+  border-right: 1px solid green;
+  border-left: 1px solid green;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feed h2 {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 15px 20px;
+}
+
+.feed h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feed::-webkit-scrollbar{
+  display: none;
+}
+
+.postFeed {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid greenyellow;
+  padding: 10px;
+ }
+ 
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+ }
+ 
+ .footer button {
+     background-color: yellowgreen;
+     border: none;
+     color: white;
+     font-weight: 800;
+     border-radius: 25px;
+     width: 80px;
+     height: 40px;
+     margin: auto;
+ }
+ 
+ .body {
+     flex: 1;
+     padding: 10px;
+ }
+
+ .news {
+  flex: 0.3;
+  padding: 20px;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+
+.news_input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.news_input input {
+  border: none;
+  background-color: greenyellow;
+  border-radius: 20px;
+}
+
+
+.news::-webkit-scrollbar{
+  display: none;
+}
+
+.article {
+  align-items: flex-start;
+  border: 1px solid greenyellow;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+ }
+
+.article img{
+ max-width: 100px;
+}
+
+.article a {
+  color: inherit;
+}
